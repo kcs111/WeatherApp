@@ -1,0 +1,25 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat-Light.ttf);
+}
+* {
+    font-family: "Montserrat";
+}
+body {
+    background-image: url(images/bg.png);
+    background-color: steelblue;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 50%;
+    background-color: white;
+    align-self: center;
+    display: block;
+    margin: 100px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    box-shadow: 5px 10px 20px black;
+}
